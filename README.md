@@ -1,2 +1,4 @@
-# A-Tribute-page
-This is a simple a tribute page created using html and css
+# HTML Project
+This is a simple tribute page created by using HTML and CSS
+
+
