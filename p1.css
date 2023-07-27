@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color:white;
+}
+.container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+  }
+
+header{
+    background: greenyellow;
+    color:black;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem opx;
+}
+.Quotes{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    max-width: 78rem;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0px 0px 0px 1rem;
+    background: white;
+    color: black;
+}
+.Quotes > blockquote{
+    font-size:3rem;
+    text-align: center;
+}
+.Quotes > img{
+    max-width: 100%;
+}
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.bio > h2{
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.bio>p{
+    font-size: 2rem;
+}
+.bio>hr{
+    margin-top: 2rem;
+}
